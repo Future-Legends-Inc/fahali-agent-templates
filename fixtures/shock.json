@@ -1,0 +1,5 @@
+{"_note":"Trimmed real response from fahali_run_shock_test, 29 Oct 2026.",
+ "requestedShocks":[
+  {"instrument":"BTCUSDT","movePct":-20,"calculationState":"measured","signedPortfolioMovePct":-13.87,"portfolioPnlUsd":-6796300,"basis":{"portfolioBeta":0.69}},
+  {"instrument":"QQQ","movePct":-8,"calculationState":"measured","signedPortfolioMovePct":-9.19,"portfolioPnlUsd":-4503100,"basis":{"portfolioBeta":1.15}}],
+ "compoundResult":{"reason":"Component shocks are shown separately. Fahali does not add overlapping beta sensitivities."}}

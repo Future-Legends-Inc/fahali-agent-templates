@@ -1,0 +1,18 @@
+{
+  "name": "fahali-agent-templates",
+  "version": "0.1.0",
+  "description": "Three runnable AI-agent templates on the Fahali MCP server: portfolio tail-risk guardian, crypto/equity contagion explainer, and dollar shock tester. Read-only market-risk intelligence. Observation, not advice.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "guardian": "node portfolio-guardian.mjs examples/portfolio.json",
+    "shock": "node shock-tester.mjs examples/portfolio.json BTCUSDT:-20 QQQ:-8",
+    "contagion": "node contagion-explainer.mjs BTCUSDT ETHUSDT NVDA QQQ MSTR",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.32.2" },
+  "keywords": ["mcp","model-context-protocol","ai-agents","agent-templates","portfolio-risk","risk-management","crypto-risk","contagion","stress-test","expected-shortfall","trading-agents","claude","cursor","openai-agents","fahali","fintech","market-risk"],
+  "repository": { "type": "git", "url": "https://github.com/Future-Legends-Inc/fahali-agent-templates.git" },
+  "author": "Future Legends Inc"
+}

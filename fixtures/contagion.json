@@ -1,0 +1,121 @@
+{
+  "clusters": [
+    {
+      "symbols": [
+        "SPY",
+        "MSTR",
+        "SMH",
+        "QQQ",
+        "PLTR",
+        "AMZN",
+        "ETHUSDT",
+        "BTCUSDT",
+        "GLD",
+        "NVDA"
+      ],
+      "riskLevel": "critical",
+      "edgeCount": 249,
+      "fullClusterSize": 116
+    }
+  ],
+  "propagation": {
+    "origins": [
+      {
+        "origin": "CRMBUSDT",
+        "arrivals": [
+          {
+            "symbol": "AAOI",
+            "arrivalHours": 1,
+            "basis": "measured"
+          },
+          {
+            "symbol": "BTCUSDT",
+            "arrivalHours": 3,
+            "basis": "composed"
+          },
+          {
+            "symbol": "QQQ",
+            "arrivalHours": 6,
+            "basis": "measured"
+          }
+        ]
+      },
+      {
+        "origin": "GDX",
+        "arrivals": [
+          {
+            "symbol": "AAOI",
+            "arrivalHours": 6,
+            "basis": "measured"
+          },
+          {
+            "symbol": "BTCUSDT",
+            "arrivalHours": 8,
+            "basis": "composed"
+          },
+          {
+            "symbol": "QQQ",
+            "arrivalHours": 14,
+            "basis": "composed"
+          }
+        ]
+      },
+      {
+        "origin": "CRCLBUSDT",
+        "arrivals": [
+          {
+            "symbol": "BTCUSDT",
+            "arrivalHours": 3,
+            "basis": "composed"
+          },
+          {
+            "symbol": "AAOI",
+            "arrivalHours": 4,
+            "basis": "composed"
+          },
+          {
+            "symbol": "QQQ",
+            "arrivalHours": 9,
+            "basis": "composed"
+          }
+        ]
+      },
+      {
+        "origin": "APP",
+        "arrivals": [
+          {
+            "symbol": "AAOI",
+            "arrivalHours": 1,
+            "basis": "measured"
+          },
+          {
+            "symbol": "BTCUSDT",
+            "arrivalHours": 3,
+            "basis": "composed"
+          }
+        ]
+      },
+      {
+        "origin": "MANTRAUSDT",
+        "arrivals": [
+          {
+            "symbol": "BTCUSDT",
+            "arrivalHours": 3,
+            "basis": "composed"
+          },
+          {
+            "symbol": "AAOI",
+            "arrivalHours": 4,
+            "basis": "composed"
+          },
+          {
+            "symbol": "QQQ",
+            "arrivalHours": 9,
+            "basis": "composed"
+          }
+        ]
+      }
+    ]
+  },
+  "_note": "Trimmed real response from fahali_get_contagion_map, 29 Oct 2026 (cluster symbols filtered; full cluster had 116)."
+}

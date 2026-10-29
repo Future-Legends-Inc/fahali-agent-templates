@@ -1,0 +1,8 @@
+[
+  { "symbol": "QQQ",  "market_value": 4650000 },
+  { "symbol": "AAPL", "market_value": 4550000 },
+  { "symbol": "NVDA", "market_value": 1350000 },
+  { "symbol": "TSLA", "market_value": 1290000 },
+  { "symbol": "COIN", "market_value": 550000 },
+  { "symbol": "IBIT", "market_value": 260000 }
+]

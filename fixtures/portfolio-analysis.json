@@ -1,0 +1,12 @@
+{"_note":"Trimmed real response from fahali_analyze_custom_portfolio, 29 Oct 2026 (positions from a public Q1 2026 13F).",
+ "portfolio":{"totalValue":14473656,"expectedShortfall95":113689.37,"expectedShortfallAttribution":{"components":[
+  {"symbol":"AAPL","weightPct":31.5,"contributionDollars":17915.42},
+  {"symbol":"COIN","weightPct":3.8,"contributionDollars":7175.6},
+  {"symbol":"CORZ","weightPct":12.5,"contributionDollars":40114.93},
+  {"symbol":"IBIT","weightPct":1.8,"contributionDollars":1686.45},
+  {"symbol":"NVDA","weightPct":9.3,"contributionDollars":9273.77},
+  {"symbol":"QQQ","weightPct":32.1,"contributionDollars":25764.46},
+  {"symbol":"TSLA","weightPct":8.9,"contributionDollars":11758.74}]},
+  "varBacktest":{"status":"measured","observations":248,"violations":16,"expectedViolations":12.4,"unconditionalCoverage":"not_rejected","independence":"not_rejected"}},
+ "correlation":{"status":"measured","symbols":["QQQ","AAPL","NVDA","COIN","IBIT"],"matrix":[[1,0.1676,0.7506,0.4717,0.5139],[0.1676,1,0.0178,-0.0084,0.0266],[0.7506,0.0178,1,0.3821,0.4095],[0.4717,-0.0084,0.3821,1,0.7701],[0.5139,0.0266,0.4095,0.7701,1]],
+  "basis":{"windowStart":"2026-09-14T19:00:00.000Z","windowEnd":"2026-10-28T23:00:00.000Z","intervalLabel":"1h"}}}
