@@ -84,6 +84,10 @@ Then ask your assistant: *"Run a Fahali shock test on my book: 40% QQQ, 20% NVDA
 - **A public, judged record.** Fahali's warnings are registered before outcomes and scored afterwards, misses included: `curl https://app.fahaliai.com/api/track-record/lead-time` (no key needed). Read each row's `publishable` flag and quote precision with recall and the stratum, never alone.
 - **Honest absence.** When data is missing, responses say so instead of filling the gap.
 
+## Building in Python or a framework?
+
+[fahali-integrations](https://github.com/Future-Legends-Inc/fahali-integrations) has Python and TypeScript clients plus LangChain, CrewAI, LlamaIndex and Vercel AI SDK adapters.
+
 ## Tests
 
 `npm test` runs the analysis code against real Fahali responses saved in `fixtures/`.
